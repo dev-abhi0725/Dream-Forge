@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  /* font-family: 'Poppins'; */
+  background-color: black;
+  color: #fff;
+  height: 100%;
+}
+body{
+  overflow-x: hidden;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+.nav {
+  width: 100%;
+  height: 5%;
+  /* background: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px;
+  position: fixed;
+  z-index: 9999;
+  background: #000;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.navbar1 li,
+.navbar2 li {
+  list-style: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Caveat';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+.navbar1 li a,.navbar2 li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Caveat';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+
+
+/* Styling Hero Section */
+.page1{
+  height: 100vh;
+  width:100%;
+  display :flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  /* background: blue; */
+}
+.box{
+  height: 80%;
+  display :flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  /* background: green; */
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: red; */
+  width: 40%;
+  height: 60%;
+  /* text-align: center; */
+  align-items: center;
+  /* gap: 20px; */
+  border: 1px solid black;
+}
+.content h1{
+  font-size: 60px;
+}
+.content p{
+  font-size: 15px;
+  margin-top: 20px;
+}
+.image{
+  width: 40%;
+  height: 60%;
+  /* background: yellow; */
+}
+.image img{
+  width: 300px;
+  height: 320px;
+  object-fit: cover;
+  position: absolute;
+  right: 20%;
+  top: 20%;
+  border-radius: 20px;
+}
+#img1{
+  transform: translate(50%,10%) rotate(10deg);
+}
+
+.lower{
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  /* background: pink; */
+  text-align: center;
+}
+.page1 .lower button{
+  width: 100px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background: rgba(0, 174, 255, 0.83);
+  cursor: pointer;
+}
+.page1 .lower button a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.page1 .lower p{
+  font-size: 15px;
+}
+.page1 .lower hr{
+  color: white;
+  width: 80%;
+}
+
+
+.page2{
+  min-height: 100vh;
+  width: 100%;
+}
