@@ -483,7 +483,8 @@ body {
     align-items: center;
   }
 
-  .page2 h2 {
+  #page2 h2 {
+    padding-top:50px ;
     font-size: 60px;
   }
 }
