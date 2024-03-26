@@ -4,61 +4,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>DreamForge</title>
+
+    <!-- Caveat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+    <!-- Rakkas Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+
+    <!-- Boxicons  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Sherry Js -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> -->
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-
-    <!-- Creating Navbar  -->
-    <div class="nav">
-        <div class="navbar1">
-            <li>Dream Forge</li>
+<body onload="slider()">
+    <header class="header">
+        <div class="img-logo">
+            <a href="#">
+                <img class="logo" src="./assets/images/logo.png" alt="Dream forge logo">
+            </a>
         </div>
-        <div class="navbar2">
-            <li><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="">Services</a></li>
-        </div>
-    </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
 
-    <!-- Creating Main Div -->
+        <nav class="navbar">
+            <a href="#" style="--i:0;">Home</a>
+            <a href=".page2" style="--i:1;">Services</a>
+            <a href="#" style="--i:2;">About</a>
+            <a href="#" style="--i:3;">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Creating main pages -->
     <div class="main">
-
 
         <!-- Creating Hero Section -->
         <div class="page1">
-            <div class="box">
-                <div class="content">
-                    <h1>Welcome</h1>
-                    <h1>To</h1>
-                    <h1>Dream Forge</h1>
-                    <p>"Unlocking potential, igniting Inovation"</p>
+            <!-- <div class="banner"> -->
+                <div class="slider">
+                    <img src="" id="slideImg">
+                    <!-- <img src="./assets/images/logo.jpg" alt=""> -->
                 </div>
-                <div class="image">
-                    <img id="img1" src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="">
-                    <img id="img2" src="https://images.unsplash.com/photo-1481487196290-c152efe083f5?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                    <!-- <img id="img3" src="https://images.unsplash.com/photo-1481487196290-c152efe083f5?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""> -->
+                <div class="overlay">
+                    <div class="top">
+                        <!-- <video autoplay muted loop src="./assets/video/website promo.mp4"></video> -->
+                        <div class="box">
+                            <div class="content">
+        
+                                <h1 id="head1">Welcome</h1>
+                                <h1 id="head2">To</h1>
+                                <h1 id="head3">Dream Forge</h1>
+                                <p class="note1">"Unlocking potential, igniting Inovation"</p>
+                                <button>
+                                    <a href="contact.html">Hire Us!</a>
+                                </button>
+                                <p class="note2">All your digital needs at one place.</p>
+                                <hr class="line">
+                                <p class="note3">We specialize in creating digital produts and services that help our clients
+                                    grow
+                                    thier
+                                    bussinesses.</p>
+                                <h5>Scroll Down ↓</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="lower">
-                <button><a href="contact.html">Hire Us!</a></button>
-                <p>All your digital needs at one place.</p>
-                <hr>
-            </div>
+
+            <!-- </div> -->
         </div>
 
 
-        <div class="page2">
 
+
+
+        <div class="page2">
+            <h2>Our Services</h2>
+            <div class="card-box">
+                <div class="card">
+                    <video autoplay loop muted src="./assets/video/promo.mp4"></video>
+                    <div class="card-content">
+                        <h3>Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, labore Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Ut, nihil! Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Quae cupiditate eaque quas! Nobis, asperiores labore! !</p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+
+                <!-- <div class="card-box"> -->
+                <div class="card">
+                    <video autoplay loop muted src="./assets/video/promo.mp4"></video>
+                    <div class="card-content">
+                        <h3>Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, labore Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Ut, nihil! Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Quae cupiditate eaque quas! Nobis, asperiores labore! !</p>
+                        <a href="./contact.html">Read More</a>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- <div class="card-box"> -->
+                <div class="card">
+                    <video autoplay loop muted src="./assets/video/website promo.mp4"></video>
+                    <div class="card-content">
+                        <h3>Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, labore Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Ut, nihil! Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Quae cupiditate eaque quas! Nobis, asperiores labore! !</p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <video autoplay loop muted src="./assets/video/promo.mp4"></video>
+                    <div class="card-content">
+                        <h3>Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, labore Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Ut, nihil! Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Quae cupiditate eaque quas! Nobis, asperiores labore! !</p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
         </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
         integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="script.js"></script>
+
+    
+
+    <!-- Using Vanilla Tilt Js -->
+    <script type="text/javascript" src="./others/vanilla-tilt.js"></script>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
