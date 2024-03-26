@@ -38,7 +38,7 @@ tl.from(".header",{
 tl.from(".content h1,.content .note1",{
     y:100,
     opacity:0,
-    stagger:.3
+    stagger:.1
 })
 tl.from(".content button",{
     scale :0,
@@ -52,7 +52,7 @@ tl.to(".content button",{
 tl.from(".note2,.line, .note3",{
     y:100,
     opacity:0,
-    stagger:.3
+    stagger:.1
 })
 tl.from(".content .scroll",{
     scale:0,
@@ -66,12 +66,12 @@ tl.to(".scroll",{
 tl.from("#page2 h2 ",{
     y:100,
     opacity:0,
-    stagger:.3
+    stagger:.1
 })
 tl.from(".card ",{
     y:100,
     opacity:0,
-    stagger:.3
+    stagger:.1
 })
 
 // Vanilla Tilt js
