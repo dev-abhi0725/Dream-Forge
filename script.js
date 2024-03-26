@@ -54,16 +54,16 @@ tl.from(".note2,.line, .note3",{
     opacity:0,
     stagger:.3
 })
-tl.from(".content h5",{
+tl.from(".content .scroll",{
     scale:0,
     opacity:0
 })
-tl.to("h5",{
+tl.to(".scroll",{
     y:30,
     repeat:-1,
     yoyo:true
 })
-tl.from(".page2 h2 ",{
+tl.from("#page2 h2 ",{
     y:100,
     opacity:0,
     stagger:.3

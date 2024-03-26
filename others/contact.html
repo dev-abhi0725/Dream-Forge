@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!-- Caveat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+    <!-- Rakkas Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+
+    <!-- font awesome w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Boxicons  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="img-logo">
+            <a href="#">
+                <img class="logo" src="../assets/images/logo.png" alt="Dream forge logo">
+            </a>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="../index.html" style="--i:0;">Home</a>
+            <a href="#page2" style="--i:1;">Services</a>
+            <a href="#index.html/#about" style="--i:2;">About</a>
+        </nav>
+    </header>
+
+
+<!---contact section begin here --->
+<div class="box"><div id="contact">
+    <h1 id="section">Contact</h1>
+        
+        <div id="contact-col">
+            <form>
+                <h2>Reach us </h2>
+                <input type="text" placeholder="Name">
+                <select name="offer">
+                    <option value="offer">Select</option>
+                    <option value="1">Graphic Design</option>
+                    <option value="2">Video Editing</option>
+                    <option value="3">Bussiness Website</option>
+                    <option value="3">Blogging Website</option>
+                    <option value="3">Dynamic Website</option>
+                    
+                </select>
+                <input type="text" placeholder="Subject">
+                <textarea rows="6" placeholder="Type Message"></textarea>
+                <button>Send Message</button>
+            </form>
+        </div>
+    </div>
+    
+    <!---contact section end here --->
+</div>
+
+<!-- Footer Start -->
+<div id="footer">
+    <div>
+        <h5>Copyright &copy;2024 <a href="../index.html">Dream Forge</a></h5>
+        <!-- <a id="top" href="#"><i class="fa fa-chevron-circle-up"></i></a> -->
+    </div>
+</div>
+<!-- Footer End -->
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    <!-- Using Vanilla Tilt Js -->
+    <script type="text/javascript" src="./vanilla-tilt.js"></script>
+
+    <script src="./contact.js"></script>
+
+</body>
+
+</html>
