@@ -1,22 +1,22 @@
-var slideImg = document.getElementById("slideImg");
+// var slideImg = document.getElementById("slideImg");
 
-var images = new Array(
-    "assets/images/img1.jpg",
-    "assets/images/img2.avif",
-    "assets/images/img3.jpg",
-    "assets/images/img4.jpg"
-);
+// var images = new Array(
+//     "assets/images/img1.jpg",
+//     "assets/images/img2.avif",
+//     "assets/images/img3.jpg",
+//     "assets/images/img4.jpg"
+// );
 
-var len = images.length;
-var i=0;
-function slider(){
-    if(i>len-1){
-        i=0;
-    }
-    slideImg.src = images[i];
-    i++;
-    setTimeout('slider()',3000)
-}
+// var len = images.length;
+// var i=0;
+// function slider(){
+//     if(i>len-1){
+//         i=0;
+//     }
+//     slideImg.src = images[i];
+//     i++;
+//     setTimeout('slider()',3000)
+// }
 
 
 
@@ -79,7 +79,7 @@ VanillaTilt.init(document.querySelectorAll(".card,.image"), {
     max: 25,
     speed: 400,
     glare:true,
-    "max-glare":1,
+    "max-glare":0,
 });
 
 

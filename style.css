@@ -169,7 +169,8 @@ body {
 .content h1 {
   font-size: 7.5rem;
   line-height: 100px;
-  text-shadow: 7px 7px 5px rgba(114, 113, 113, 0.948);
+  color: #eae5e5;
+  text-shadow: 7px 7px 5px rgba(114, 113, 113, 0.601);
 }
 #head3 {
   margin-bottom: 20px;
@@ -193,9 +194,7 @@ body {
   color: #fff;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.content a:hover{
-  color: #000;
-}
+
 
 .note2 {
   font-size: 25px;
@@ -261,8 +260,6 @@ body {
   margin:   50px;
   box-shadow: 10px 10px 10px rgba(66, 66, 66, 0.704);
   border-radius: 15px;
-  /* background: rgba(255, 255, 255, 0.1); */
-  /* background: red; */
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -270,7 +267,17 @@ body {
   border-top: 1px solid  rgba(255, 255, 255, 0.705);
   backdrop-filter: blur(10px);
 }
-.card video {
+/* Uncomments if u use video */
+/* .card video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  z-index: -100;
+  filter: brightness(35%);
+} */
+.card img {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -293,13 +300,14 @@ body {
   opacity: 1;
 }
 .card-content h3 {
-  font-size: 3rem;
+  font-size: 2.2rem;
+  line-height: 40px;
   color: #fff;
   z-index: 99;
   margin-bottom: 10px;
 }
 .card-content p {
-  font-size: .9rem;
+  font-size: .8rem;
   color: #fff;
   font-weight: 300;
 }
@@ -342,17 +350,69 @@ body {
   text-decoration: underline;
 }
 #about p{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding: 10px auto;
   width: 70%;   
   margin-bottom: 40px;
   
 }
+.clients{
+  height: 80vh;
+  width: 100%;
+  background: red;
+}
+.clients h2{
+  font-family: "Rakkas";
+  font-size: 80px;
+  text-align: center;
+}
+.client-box{
+  width: 100%;
+  /* height: 100%; */
+}
+#scroller{
+  /* background-color: red; */
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 10;
+}
+#scroller::-webkit-scrollbar{
+  display: none;
+}
+#scroller-in{
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: scroll;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background: #000;
 
+}
+.box1{
+  background: wheat;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .box h3,p{
+  width: 100%;
+  background: #000;
+} */
 
-
-
-
+@keyframes scroll {
+  from{
+      transform: translateX(0%);
+  }
+  to{
+      transform: translateX(-100%);
+  }
+  
+}
 
 
 /* footer */
