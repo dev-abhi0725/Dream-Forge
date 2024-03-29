@@ -31,7 +31,7 @@
 var tl= gsap.timeline();
 tl.from(".header",{
     y:-100,
-    delay:.3,
+    delay:.1,
     stagger:.2
 })
 
@@ -63,16 +63,16 @@ tl.to(".scroll",{
     repeat:-1,
     yoyo:true
 })
-tl.from("#page2 h2 ",{
-    y:100,
-    opacity:0,
-    stagger:.1
-})
-tl.from(".card ",{
-    y:100,
-    opacity:0,
-    stagger:.1
-})
+// tl.from("#page2 h2 ",{
+//     y:100,
+//     opacity:0,
+//     stagger:.1
+// })
+// tl.from(".card ",{
+//     y:100,
+//     opacity:0,
+//     stagger:.1
+// })
 
 // Vanilla Tilt js
 VanillaTilt.init(document.querySelectorAll(".card,.image"), {

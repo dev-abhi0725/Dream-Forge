@@ -116,6 +116,7 @@ body {
   color: #fff;
   font-size: 80px;
   text-align: center;
+  font-weight: 200;
   font-family: "Rakkas";
   text-decoration: underline;
 }
@@ -162,8 +163,8 @@ body {
   margin-left: 10px;
   text-align: left;
 }
-.about-info button {
-  padding: 10px 30px;
+.about-info .btn {
+  padding: 8px 30px;
   margin-bottom: 10px;
   text-align: center;
   font-size: 20px;
@@ -171,11 +172,16 @@ body {
   border: none;
   background: #474646;
   color: #fff;
-  width: 30%;
+  width: 40%;
+  text-decoration: none;
+  cursor: pointer;
 }
 .about-info button i {
   text-align: center;
   font-size: 20px;
+}
+.about-info a{
+  cursor: pointer;
 }
 .about-info #social {
   text-align: left;
@@ -339,7 +345,7 @@ body {
   .about-info .follow {
     text-align: left;
   }
-  .about-info button {
+  .about-info .btn{
     padding: 5px 15px;
     font-size: 15px;
     width: 60%;
