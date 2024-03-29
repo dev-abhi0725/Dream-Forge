@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Caveat";
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -78,9 +78,6 @@ body {
   cursor: pointer;
   transition: font-size 0.3s;
 }
-/* .navbar a:hover {
-  font-size: 1.75rem;
-} */
 
 #check {
   display: none;
@@ -119,9 +116,9 @@ body {
   animation: image 3s linear infinite;
 }
 
-@keyframes image{
-  0%{   
-     transform: scale(1.3);
+@keyframes image {
+  0% {
+    transform: scale(1.3);
   }
   15% {
     transform: scale(1);
@@ -153,7 +150,7 @@ body {
   height: 100vh;
 }
 .box {
-  margin: 60px 30px 60px 30px;
+  margin: 30px 30px 60px 30px;
   height: 85%;
   display: flex;
   flex-direction: column;
@@ -164,21 +161,21 @@ body {
 .content {
   text-align: center;
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .content h1 {
-  font-size: 7.5rem;
-  line-height: 100px;
+  font-size: 7.3rem;
+  line-height: 110px;
   color: #eae5e5;
-  text-shadow: 7px 7px 5px rgba(114, 113, 113, 0.601);
+  text-shadow: 7px 7px 5px rgba(70, 68, 68, 0.601);
 }
 #head3 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .note1 {
   font-size: 30px;
   text-shadow: 5px 5px 5px rgba(114, 113, 113, 0.948);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .content button {
   padding: 5px 20px;
@@ -192,9 +189,9 @@ body {
   font-size: 20px;
   font-weight: 1000;
   color: #fff;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
 
 .note2 {
   font-size: 25px;
@@ -206,7 +203,7 @@ body {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .note3 {
   font-size: 25px;
@@ -221,20 +218,15 @@ body {
 
 /* Page 2 */
 #page2 {
+  min-height: 100vh;
   margin: 0;
   position: relative;
-  background: #000;
+  /* background: #6d4949; */
   z-index: 99;
-  /* background: pink; */
 }
-.glass{
-  /* border: 1px solid wheat; */
-  background: linear-gradient(90deg, transparent, rgb(30, 29, 29), transparent);
 
-}
 #page2 h2 {
   padding-top: 30px;
-  /* padding: 20px 0 auto auto; */
   color: #fff;
   font-size: 80px;
   text-align: center;
@@ -244,43 +236,35 @@ body {
 
 /* for Card in page 2 */
 .card-box {
-  /* height: 100%;   */
   position: relative;
   display: flex;
+  flex: 1;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  /* background: red; */
+
 }
 .card {
   position: relative;
-  width: 280px;
-  height: 400px;
-  margin:   50px;
+  width: 250px;
+  height: 380px;
+  gap: 10px;
+  margin: 50px 0;
   box-shadow: 10px 10px 10px rgba(66, 66, 66, 0.704);
   border-radius: 15px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid  rgba(255, 255, 255, 0.705);
+  border-top: 1px solid rgba(255, 255, 255, 0.705);
   backdrop-filter: blur(10px);
 }
-/* Uncomments if u use video */
-/* .card video {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 15px;
-  z-index: -100;
-  filter: brightness(35%);
-} */
+
 .card img {
   position: absolute;
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   object-fit: cover;
   border-radius: 15px;
   z-index: -100;
@@ -307,7 +291,7 @@ body {
   margin-bottom: 10px;
 }
 .card-content p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #fff;
   font-weight: 300;
 }
@@ -323,130 +307,132 @@ body {
   font-weight: 500;
 }
 
-#page3{
+#page3 {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   position: relative;
-  /* background: rgb(48, 18, 18); */
-  padding: 10px;
+  padding: 10px 0 10px 0px;
   text-align: center;
-  
-  
+  padding-top: 50px;
 }
-#about{
-  background: linear-gradient(90deg, transparent, rgb(30, 29, 29), transparent);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+#about {
+  height: 100%;
 }
-.about h2{ 
-  padding-top: 20px;
-  /* padding: 20px 0 auto auto; */
+#about h2 {
+  padding-top: 15px;
   color: #fff;
   font-size: 80px;
   text-align: center;
   font-family: "Rakkas";
   text-decoration: underline;
 }
-#about p{
+#about .about-desc {
   font-size: 1.1rem;
-  padding: 10px auto;
-  width: 70%;   
-  margin-bottom: 40px;
-  
-}
-.clients{
-  height: 80vh;
-  width: 100%;
-  background: red;
-}
-.clients h2{
-  font-family: "Rakkas";
-  font-size: 80px;
+  padding: 10px 30px;
   text-align: center;
+  margin: 0 30px;
 }
-.client-box{
+.about-box {
   width: 100%;
-  /* height: 100%; */
-}
-#scroller{
-  /* background-color: red; */
-  white-space: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-  position: relative;
-  z-index: 10;
-}
-#scroller::-webkit-scrollbar{
-  display: none;
-}
-#scroller-in{
-  display: inline-block;
-  white-space: nowrap;
-  animation-name: scroll;
-  animation-duration: 20s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  background: #000;
-
-}
-.box1{
-  background: wheat;
-  height: 300px;
-  width: 300px;
+  height: 50vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-}
-/* .box h3,p{
-  width: 100%;
-  background: #000;
-} */
-
-@keyframes scroll {
-  from{
-      transform: translateX(0%);
-  }
-  to{
-      transform: translateX(-100%);
-  }
+  padding: 10px;
   
 }
+.about-info {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+}
+.about-info h3 {
+  text-align: start;
+  font-size: 1.6rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.about-info h3 span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.4rem;
+}
+.about-info .para {
+  text-align: start;
+  font-size: 1rem;
+}
+.about-info a{
+  cursor: pointer;
+}
+.about-info .follow {
+  margin-left: 10px;
+  text-align: left;
+}
+.about-info button {
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  background: #474646;
+  color: #fff;
+  width: 30%;
+}
+.about-info button i {
+  text-align: center;
+  font-size: 20px;
+}
+.about-info #social {
+  text-align: left;
+}
+.about-info #social a {
+  text-decoration: none;
+}
+.about-info #social a i {
+  padding-left: 5px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.about-box img {
+  background: #000;
+  width: 30%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
 
 
 /* footer */
-#footer{
+#footer {
   background-color: #292929;
   padding: 10px;
-  position: relative;
+  /* position: relative; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
-#footer h5{
+#footer h5 {
   text-align: center;
   color: antiquewhite;
 }
-#footer h5 a{
+#footer h5 a {
   text-decoration: none;
   color: #fff;
 }
-#top{
+#top {
   position: absolute;
   right: 12px;
   bottom: 5px;
   color: #fff;
   font-size: 1.2rem;
   cursor: pointer;
-} 
-
-
-
-
-
-
-
-
-
-
+}
 
 /* Breakpoints */
 @media (max-width: 992px) {
@@ -544,10 +530,133 @@ body {
   }
 
   #page2 h2 {
-    padding-top:50px ;
+    /* padding-top: 70px; */
     font-size: 60px;
   }
+
+  .card {
+    width: 200px;
+    height: 300px;
+    margin: 20px 0;
+  }
+  .card-content {
+    padding: 10px;
+  }
+
+  .card-content h3 {
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin:5px 0;
+  }
+  .card-content p {
+    font-size: 0.8rem;
+    line-height: 15px;
+  }
+  .card-content a {
+    position: relative;
+    display: inline-block;
+    padding: 4px 10px;
+    margin-top: 7px;
+  }
+
+  #page3 {
+    min-height: 100vh;
+    padding: 10px 0 0px 0px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  #about {
+    height: 100%;
+  }
+  #about h2 {
+    font-size: 60px;
+  }
+  #about .about-desc {
+    font-size: .8rem;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 0 30px;
+  }
+  .about-box {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-info {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    padding-bottom: 0;
+    padding-top: 0;
+    justify-content: center;
+  }
+  .about-info h3 {
+    text-align: start;
+    font-size: 1rem;
+  }
+  .about-info h3 span {
+    font-size: .9rem;
+  }
+  .about-info .para {
+    text-align: start;
+    font-size: .8rem;
+  }
+  .about-info a{
+    cursor: pointer;
+  }
+  .about-info .follow {
+    text-align: left;
+  }
+  .about-info button {
+    padding: 5px 15px;
+    font-size: 15px;
+    width: 60%;
+  }
+  .about-info button i {
+    text-align: center;
+    font-size: 10px;
+  }
+  .about-info #social {
+    text-align: left;
+  }
+  .about-info #social a {
+    text-decoration: none;
+  }
+  .about-info #social a i {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  .about-box img {
+    background: #000;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 15px;
+  }
+
+  /* footer */
+  #footer {
+    background-color: #292929;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 11;
+  }
+  #top {
+    position: absolute;
+    right: 12px;
+    bottom: 5px;
+    color: #fff;
+    font-size: .7rem;
+    cursor: pointer;
+  }
 }
-
-
-
