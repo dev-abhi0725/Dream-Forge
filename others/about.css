@@ -165,9 +165,10 @@ body {
   margin-top: 15px;
   gap: 10px;
   align-items: center;
+  align-items: center;
 }
 .about-info .btn {
-  padding: 8px 30px;
+  padding: 4px 20px;
   margin-bottom: 10px;
   text-align: center;
   font-size: 20px;
@@ -349,7 +350,7 @@ body {
     text-align: center;
   }
   .about-info .btn{
-    padding: 5px 15px;
+    padding: 4px 15px;
     font-size: 15px;
     width: 50%;
   }
