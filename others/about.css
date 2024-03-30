@@ -11,7 +11,7 @@ body {
   /* min-height: 100vh; */
   background: #000000;
   color: #fff;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .header {

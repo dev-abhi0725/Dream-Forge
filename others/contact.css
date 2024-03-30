@@ -16,7 +16,7 @@ body {
   justify-content: center;
   height: 100vh;
   flex-direction: column;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .header {

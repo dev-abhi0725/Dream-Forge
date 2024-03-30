@@ -194,7 +194,7 @@ body {
   min-height: 100vh;
   font-size: 1rem;
   background : var(--bg);
-  overflow: hidden;
+  overflow-x: hidden;
   /* background: #2e0101; */
 
 }
