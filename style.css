@@ -542,7 +542,7 @@ body {
   }
   .content h5 {
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     left: 50%;
     transform: translate(-50%, 0);
     align-items: center;
