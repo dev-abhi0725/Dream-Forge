@@ -116,6 +116,7 @@ body {
   height: 100vh;
   overflow: hidden;
   /* animation: image 3s linear infinite; */
+  transform: scale(1.3);
 }
 
 /* @keyframes image {
@@ -373,9 +374,11 @@ body {
 .about-info a{
   cursor: pointer;
 }
-.about-info .follow {
-  margin-left: 10px;
-  text-align: left;
+.about-info .follow-btn {
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+  text-align:center;
 }
 .about-info .btn {
   padding: 8px 30px;
@@ -386,7 +389,7 @@ body {
   border: none;
   background: #474646;
   color: #fff;
-  width: 50%;
+  width: 40%;
   text-decoration: none;
 }
 .about-info a{
@@ -397,7 +400,7 @@ body {
   font-size: 20px;
 }
 .about-info #social {
-  text-align: left;
+  text-align:left;
 }
 .about-info #social a {
   text-decoration: none;
@@ -620,20 +623,20 @@ body {
   .about-info a{
     cursor: pointer;
   }
-  .about-info .follow {
-    text-align: left;
+  .about-info .btn {
+    text-align: center;
   }
   .about-info button {
     padding: 5px 15px;
     font-size: 15px;
-    width: 60%;
+    width: 50%;
   }
   .about-info button i {
     text-align: center;
     font-size: 10px;
   }
   .about-info #social {
-    text-align: left;
+    text-align: center;
   }
   .about-info #social a {
     text-decoration: none;

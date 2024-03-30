@@ -108,7 +108,8 @@ body {
 h1 {
   text-align: center;
   font-size: 4rem;
-  font-family: "Rakkas";
+  /* font-family: "Rakkas"; */
+  font-family: "Caveat";
   font-weight: 200;
   /* text-shadow: 10px 10px 1px rgba(116, 113, 113, 0.9); */
 }

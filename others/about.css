@@ -117,8 +117,9 @@ body {
   font-size: 80px;
   text-align: center;
   font-weight: 200;
-  font-family: "Rakkas";
-  text-decoration: underline;
+  /* font-family: "Rakkas"; */
+  font-family: "Caveat";
+  /* text-decoration: underline; */
 }
 #about .about-desc {
   font-size: 1.1rem;
@@ -159,9 +160,11 @@ body {
 .about-info a{
   cursor: pointer;
 }
-.about-info .follow {
-  margin-left: 10px;
-  text-align: left;
+.about-info .follow-btn {
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+  align-items: center;
 }
 .about-info .btn {
   padding: 8px 30px;
@@ -342,26 +345,27 @@ body {
   .about-info a{
     cursor: pointer;
   }
-  .about-info .follow {
-    text-align: left;
+  .about-info .follow-btn {
+    text-align: center;
   }
   .about-info .btn{
     padding: 5px 15px;
     font-size: 15px;
-    width: 60%;
+    width: 50%;
   }
   .about-info button i {
     text-align: center;
     font-size: 10px;
   }
   .about-info #social {
-    text-align: left;
+    text-align: center;
   }
   .about-info #social a {
     text-decoration: none;
   }
   .about-info #social a i {
     font-size: 20px;
+    /* padding-bottom: 5px; */
     margin-bottom: 0;
   }
   
