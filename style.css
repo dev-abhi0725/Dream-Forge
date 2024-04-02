@@ -23,7 +23,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.1rem 7%;
+  padding:10px;
   /* background: #a04d4d; */
   display: flex;
   justify-content: space-between;
@@ -380,7 +380,7 @@ body {
   display: flex;
   margin-top: 15px;
   gap: 10px;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   text-align:center;
 }

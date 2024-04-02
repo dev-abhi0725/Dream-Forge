@@ -165,7 +165,7 @@ body {
   margin-top: 15px;
   gap: 10px;
   align-items: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .about-info .btn {
   padding: 4px 20px;

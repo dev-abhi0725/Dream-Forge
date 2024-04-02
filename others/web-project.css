@@ -223,25 +223,25 @@ body {
 
 
 #tranding {
-  padding: 14rem 0 0 0;
+  padding: 3.5rem 0 0 0;
   /* background: #d83c3c; */
 }
 
 
 
 #tranding .tranding-slider {
-  height: 48rem;
-  padding: 3rem 0;
+  height: 55rem;
+  padding: 0 0 3rem 0;
   position: relative;
   /* background: #f40a0a; */
 }
 
 
 .tranding-slide {
-  width: 35rem;
+  width: 65rem;
   height: 30rem;
   position: relative;
-  /* background: #f3ebeb; */
+  /* background: #714545; */
 }
 
 
@@ -267,17 +267,18 @@ body {
 
 .tranding-slide-content .project-name {
   position: absolute;
-  left: 2rem;
-  bottom: 2rem;
-  transform: translateX(2rem);
+  left: 20rem;
+  bottom: -80px;
+  transform: translateX(1%);
   color: var(--white);
-  font-size: 4rem;
-  /* background: #4b9c20; */
+  font-size: 5rem;
+  align-items: center;
+  background:  #4b9c20;
 }
 
 .tranding-slide-content .tranding-slide-content-bottom {
   position: absolute;
-  bottom: -19px;
+  bottom: -140px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -417,7 +418,44 @@ body {
     transition-delay: calc(0.15s * var(--i));
   }
   #tranding {
-    padding: 7rem 0 0 0;
+    padding: 5rem 0 0 0;
     /* background: #d83c3c; */
+  }
+  
+  
+  
+  #tranding .tranding-slider {
+    height: 48rem;
+    padding:3rem 0;
+    position: relative;
+    /* background: #f40a0a; */
+  }
+  
+  
+  .tranding-slide {
+    width: 35rem;
+    height: 30rem ;
+    position: relative;
+    /* background: #714545; */
+  }
+  .tranding-slide-content .project-name {
+    position: absolute;
+    left: 4.7rem;
+    bottom: 2rem;
+    transform: translateX(2rem);
+    color: var(--white);
+    font-size: 4rem;
+    /* background: #4b9c20; */
+  }
+  
+  .tranding-slide-content .tranding-slide-content-bottom {
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1.4rem;
+    /* color: var(--white); */
+    /* background: #2909a9; */
   }
 }
