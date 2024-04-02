@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  max-height: 100vh;
   flex-direction: column;
   overflow-x: hidden;
 }
@@ -96,6 +96,7 @@ body {
 }
 
 .main {
+  margin-top: 40px;
   /* background: #5d3d3d; */
   /* background: linear-gradient(90deg, transparent, rgb(30, 29, 29), transparent); */
   padding: 10px;

@@ -117,6 +117,7 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  filter: brightness(100%);
   /* animation: image 3s linear infinite; */
   /* transform: scale(1.3); */
 }
@@ -139,7 +140,8 @@ body {
 .overlay {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background: linear-gradient(rgba(0, 0, 0, 0.478), rgba(0, 0, 0, 0.456));
+  /* background: red; */
   position: absolute;
   top: 0;
   display: flex;
@@ -460,7 +462,7 @@ body {
 /* Breakpoints */
 @media (max-width: 992px) {
   .header {
-    padding: 0.2rem 5%;
+    padding: 0.2rem 2%;
   }
 }
 

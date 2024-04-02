@@ -273,7 +273,7 @@ body {
   color: var(--white);
   font-size: 5rem;
   align-items: center;
-  background:  #4b9c20;
+  /* background:  #4b9c20; */
 }
 
 .tranding-slide-content .tranding-slide-content-bottom {
@@ -361,7 +361,7 @@ body {
 /* Breakpoints */
 @media (max-width: 992px) {
   .header {
-    padding: 0.2rem 5%;
+    padding: 0.2rem 2%;
   }
 }
 
@@ -418,7 +418,7 @@ body {
     transition-delay: calc(0.15s * var(--i));
   }
   #tranding {
-    padding: 5rem 0 0 0;
+    padding: 20rem 0 0 0;
     /* background: #d83c3c; */
   }
   
