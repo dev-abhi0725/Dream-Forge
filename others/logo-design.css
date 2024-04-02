@@ -418,7 +418,7 @@ body {
     transition-delay: calc(0.15s * var(--i));
   }
   #tranding {
-    padding: 11rem 0 0 0;
+    padding: 21rem 0 0 0;
     /* background: #d83c3c; */
   }
   
