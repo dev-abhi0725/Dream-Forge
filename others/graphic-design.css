@@ -234,7 +234,7 @@ body {
   height: 55rem;
   padding: 0 0 3rem 0;
   position: relative;
-  /* background: #f40a0a; */
+  background: #f40a0a;
 }
 
 
@@ -242,7 +242,7 @@ body {
   width: 65rem;
   height: 30rem;
   position: relative;
-  /* background: #714545; */
+  background: #714545;
 }
 
 
@@ -419,14 +419,14 @@ body {
     transition-delay: calc(0.15s * var(--i));
   }
   #tranding {
-    padding: 6rem 0 0 0;
+    padding: 0 0 0 0;
     /* background: #d83c3c; */
   }
   
   
   
   #tranding .tranding-slider {
-    height: 45rem;
+    height: 40rem;
     padding:3rem 0;
     position: relative;
     /* background: #f40a0a; */
@@ -434,10 +434,10 @@ body {
   
   
   .tranding-slide {
-    width: 40rem;
-    height: 40rem ;
+    width: 25rem;
+    height: 20rem ;
     position: relative;
-    /* background: #714545; */
+    background: #714545;
   }
   .tranding-slide-content .project-name {
     position: absolute;
