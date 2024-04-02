@@ -274,7 +274,7 @@ body {
   color: var(--white);
   font-size: 5rem;
   align-items: center;
-  background:  #4b9c20;
+  /* background:  #4b9c20; */
 }
 
 .tranding-slide-content .tranding-slide-content-bottom {
@@ -434,8 +434,8 @@ body {
   
   
   .tranding-slide {
-    width: 35rem;
-    height: 30rem ;
+    width: 40rem;
+    height: 40rem ;
     position: relative;
     /* background: #714545; */
   }

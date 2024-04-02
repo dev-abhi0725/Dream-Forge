@@ -305,6 +305,10 @@ body {
     padding: 4px 10px;
     margin-top: 7px;
   }
+  .card:hover .card-content {
+    transform: none;
+    opacity: 1;
+  }
 
   /* footer */
   #footer {
