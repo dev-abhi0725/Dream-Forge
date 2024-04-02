@@ -437,6 +437,26 @@ body {
     height: 30rem ;
     position: relative;
     /* background: #714545; */
+  }#tranding {
+    padding: 21rem 0 0 0;
+    /* background: #d83c3c; */
+  }
+  
+  
+  
+  #tranding .tranding-slider {
+    height: 50rem;
+    padding:3rem 0;
+    position: relative;
+    /* background: #f40a0a; */
+  }
+  
+  
+  .tranding-slide {
+    width: 45rem;
+    height: 35rem ;
+    position: relative;
+    /* background: #714545; */
   }
   .tranding-slide-content .project-name {
     position: absolute;

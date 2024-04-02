@@ -194,7 +194,6 @@ body {
   min-height: 100vh;
   font-size: 1rem;
   background : var(--bg);
-  overflow-x: hidden;
   /* background: #2e0101; */
 
 }
@@ -274,6 +273,7 @@ body {
   color: var(--white);
   font-size: 5rem;
   align-items: center;
+  /* background:  #4b9c20; */
 }
 
 .tranding-slide-content .tranding-slide-content-bottom {
@@ -283,6 +283,8 @@ body {
   transform: translateX(-50%);
   text-align: center;
   font-size: 1.4rem;
+  /* color: var(--white); */
+  /* background: #2909a9; */
 }
 .project-link a{
   text-decoration: none;
@@ -423,7 +425,7 @@ body {
   
   
   #tranding .tranding-slider {
-    height: 45rem;
+    height: 50rem;
     padding:3rem 0;
     position: relative;
     /* background: #f40a0a; */
@@ -431,8 +433,8 @@ body {
   
   
   .tranding-slide {
-    width: 35rem;
-    height: 30rem ;
+    width: 45rem;
+    height: 35rem ;
     position: relative;
     /* background: #714545; */
   }
@@ -443,6 +445,7 @@ body {
     transform: translateX(2rem);
     color: var(--white);
     font-size: 4rem;
+    /* background: #4b9c20; */
   }
   
   .tranding-slide-content .tranding-slide-content-bottom {
@@ -452,6 +455,7 @@ body {
     transform: translateX(-50%);
     text-align: center;
     font-size: 1.4rem;
+    /* color: var(--white); */
+    /* background: #2909a9; */
   }
-  
 }

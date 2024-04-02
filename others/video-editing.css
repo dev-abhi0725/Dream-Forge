@@ -425,7 +425,7 @@ body {
   
   
   #tranding .tranding-slider {
-    height: 45rem;
+    height: 50rem;
     padding:3rem 0;
     position: relative;
     /* background: #f40a0a; */
@@ -433,8 +433,8 @@ body {
   
   
   .tranding-slide {
-    width: 35rem;
-    height: 30rem ;
+    width: 45rem;
+    height: 35rem ;
     position: relative;
     /* background: #714545; */
   }
