@@ -233,7 +233,7 @@ body {
 }
 
 #page2 h2 {
-  padding-top: 30px;
+  padding-top: 50px;
   color: #fff;
   font-size: 80px;
   text-align: center;
@@ -384,7 +384,7 @@ body {
   align-items: center;
   text-align:center;
 }
-.about-info .btn {
+.about-info .followa {
   padding: 4px 20px;
   margin-bottom: 10px;
   text-align: center;
@@ -392,8 +392,12 @@ body {
   border-radius: 20px;
   border: none;
   background: #474646;
-  color: #fff;
   width: 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.about-info .followa a{
+  color: #fff;
   text-decoration: none;
 }
 .about-info a{

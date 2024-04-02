@@ -112,10 +112,11 @@ body {
   padding-top: 30px;
   color: #fff;
   font-size: 80px;
-  font-weight: 200;
+  font-weight: 500;
   text-align: center;
-  font-family: "Rakkas";
-  text-decoration: underline;
+  /* font-family: "Rakkas"; */
+  font-family: "Caveat";
+  /* text-decoration: underline; */
 }
 
 /* for Card in page 2 */
