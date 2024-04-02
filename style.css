@@ -18,6 +18,26 @@ body {
   /* max-width: 100vw; */
 }
 
+::-webkit-scrollbar {
+  width: 1rem;
+  background: #42da05;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #797979;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222224;
+}
+
+::-webkit-scrollbar-track {
+  /* background: #f9f9f9; */
+  background: #3b3434;
+}
+
 .header {
   position: fixed;
   top: 0;
