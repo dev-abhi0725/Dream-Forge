@@ -234,7 +234,7 @@ body {
   height: 55rem;
   padding: 0 0 3rem 0;
   position: relative;
-  background: #f40a0a;
+  /* background: #f40a0a; */
 }
 
 
@@ -242,7 +242,7 @@ body {
   width: 65rem;
   height: 30rem;
   position: relative;
-  background: #714545;
+  /* background: #714545; */
 }
 
 
@@ -274,7 +274,6 @@ body {
   color: var(--white);
   font-size: 5rem;
   align-items: center;
-  /* background:  #4b9c20; */
 }
 
 .tranding-slide-content .tranding-slide-content-bottom {
@@ -284,8 +283,6 @@ body {
   transform: translateX(-50%);
   text-align: center;
   font-size: 1.4rem;
-  /* color: var(--white); */
-  /* background: #2909a9; */
 }
 .project-link a{
   text-decoration: none;
@@ -446,7 +443,6 @@ body {
     transform: translateX(2rem);
     color: var(--white);
     font-size: 4rem;
-    /* background: #4b9c20; */
   }
   
   .tranding-slide-content .tranding-slide-content-bottom {
@@ -456,8 +452,6 @@ body {
     transform: translateX(-50%);
     text-align: center;
     font-size: 1.4rem;
-    /* color: var(--white); */
-    /* background: #2909a9; */
   }
   
 }
