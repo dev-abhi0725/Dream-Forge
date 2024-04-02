@@ -419,14 +419,14 @@ body {
     transition-delay: calc(0.15s * var(--i));
   }
   #tranding {
-    padding: 0 0 0 0;
+    padding: 11rem 0 0 0;
     /* background: #d83c3c; */
   }
   
   
   
   #tranding .tranding-slider {
-    height: 40rem;
+    height: 45rem;
     padding:3rem 0;
     position: relative;
     /* background: #f40a0a; */
@@ -434,10 +434,10 @@ body {
   
   
   .tranding-slide {
-    width: 25rem;
-    height: 20rem ;
+    width: 35rem;
+    height: 30rem ;
     position: relative;
-    background: #714545;
+    /* background: #714545; */
   }
   .tranding-slide-content .project-name {
     position: absolute;
