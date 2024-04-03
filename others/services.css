@@ -154,7 +154,17 @@ body {
   z-index: -100;
   filter: brightness(35%);
 }
-
+.card h4{
+  text-align: center;
+  /* overflow: hidden; */
+  position: absolute;
+  z-index: 9999;
+  font-size: 2rem;
+  transition: all ease .5s;
+}
+.card:hover h4{
+  opacity: 0;
+}
 .card-content {
   padding: 20px;
   text-align: center;

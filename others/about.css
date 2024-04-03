@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* min-height: 100vh; */
+  max-height: 100vh;
   background: #000000;
   color: #fff;
   overflow-x: hidden;
