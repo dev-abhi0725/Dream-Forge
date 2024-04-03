@@ -117,6 +117,7 @@ body {
   /* font-family: "Rakkas"; */
   font-family: "Caveat";
   /* text-decoration: underline; */
+  margin-top:15px
 }
 
 /* for Card in page 2 */
@@ -185,9 +186,9 @@ body {
   margin-bottom: 10px;
 }
 .card-content p {
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
 }
 .card-content a {
   position: relative;
@@ -202,13 +203,16 @@ body {
 }
 /* footer */
 #footer {
-  background-color: #292929;
+  background-color: #212121;
   padding: 10px;
   position: relative;
-  /* position: absolute;
+  position: absolute;
   bottom: 0;
-  left: 0; */
+  left: 0;
   width: 100%;
+  font-size:1.5rem;
+  
+  
 }
 #footer h5 {
   text-align: center;
@@ -306,7 +310,7 @@ body {
     margin: 5px 0;
   }
   .card-content p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 15px;
   }
   .card-content a {
@@ -324,10 +328,11 @@ body {
   #footer {
     background-color: #292929;
     padding: 5px;
-    /* position: absolute;
+    position:relative;
+    /* position: absolute; */
     width: 100%;
     left: 0;
-    bottom: 0%; */
+    bottom: 0%;
     /* z-index: 111; */
   }
   #top {
