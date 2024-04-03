@@ -369,8 +369,8 @@ body {
   padding-top: 15px;
   color: #fff;
   font-size: 80px;
-  font-weight: 200;
   text-align: center;
+  font-weight: 200;
   /* font-family: "Rakkas"; */
   font-family: "Caveat";
   /* text-decoration: underline; */
@@ -418,35 +418,32 @@ body {
   display: flex;
   margin-top: 15px;
   gap: 10px;
-  /* justify-content: center; */
   align-items: center;
-  /* text-align:center; */
+  /* background: #bd6565; */
+  
 }
-.about-info .followa {
+.about-info .btn {
   padding: 4px 20px;
-  margin-bottom: 10px;
-  text-align: center;
+  /* margin-bottom: 10px; */
+  /* text-align: center; */
   font-size: 20px;
   border-radius: 20px;
   border: none;
   background: #474646;
-  width: 40%;
-  cursor: pointer;
-  text-decoration: none;
-}
-.about-info .followa a{
   color: #fff;
+  width: 40%;
   text-decoration: none;
-}
-.about-info a{
   cursor: pointer;
 }
 .about-info button i {
   text-align: center;
   font-size: 20px;
 }
+.about-info a{
+  cursor: pointer;
+}
 .about-info #social {
-  text-align:left;
+  text-align: left;
 }
 .about-info #social a {
   text-decoration: none;
@@ -669,13 +666,9 @@ body {
   .about-info a{
     cursor: pointer;
   }
-  .about-info .follow-btn {
-    /* text-align: center; */
-    vertical-align: middle;
-  }
-  .about-info .btn {
+  .about-info .btn{
+    padding: 4px 15px;
     font-size: 15px;
-    padding: 5px 5px;
     width: 50%;
   }
   .about-info button i {
@@ -690,8 +683,8 @@ body {
   }
   .about-info #social a i {
     font-size: 20px;
+    /* padding-bottom: 5px; */
     margin-bottom: 0;
-    padding-right: 3px;
   }
   
   .about-box img {

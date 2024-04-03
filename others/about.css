@@ -165,12 +165,13 @@ body {
   margin-top: 15px;
   gap: 10px;
   align-items: center;
-  /* align-items: center; */
+  /* background: #bd6565; */
+  
 }
 .about-info .btn {
   padding: 4px 20px;
-  margin-bottom: 10px;
-  text-align: center;
+  /* margin-bottom: 10px; */
+  /* text-align: center; */
   font-size: 20px;
   border-radius: 20px;
   border: none;
@@ -298,7 +299,7 @@ body {
 
   
   #page3 {
-    min-height: 100vh;
+    max-height: 100vh;
     padding: 10px 0 0px 0px;
     text-align: center;
     padding-top: 30px;
@@ -345,9 +346,6 @@ body {
   }
   .about-info a{
     cursor: pointer;
-  }
-  .about-info .follow-btn {
-    text-align: center;
   }
   .about-info .btn{
     padding: 4px 15px;
