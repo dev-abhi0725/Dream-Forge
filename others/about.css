@@ -146,16 +146,18 @@ body {
 }
 .about-info h3 {
   text-align: start;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .about-info h3 span {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+color:rgb(60, 60, 164);
+font-weight: bolder;
 }
 .about-info .para {
   text-align: start;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 .about-info a{
   cursor: pointer;
@@ -335,10 +337,14 @@ body {
   }
   .about-info h3 {
     text-align: start;
-    font-size: 1rem;
+    font-size: .8rem;
+    text-align: center;
+    padding-bottom: 15px;
   }
   .about-info h3 span {
-    font-size: .9rem;
+    font-size: .8rem;
+    color:rgba(73, 73, 164, 0.764);
+    font-weight: bolder;
   }
   .about-info .para {
     text-align: start;
@@ -357,6 +363,8 @@ body {
     font-size: 10px;
   }
   .about-info #social {
+    display: flex;
+    gap:15px;
     text-align: center;
   }
   .about-info #social a {
