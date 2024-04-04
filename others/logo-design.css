@@ -460,9 +460,9 @@ body {
   }
   .tranding-slide-content .project-name {
     position: absolute;
-    left: 4.7rem;
+    left: 7rem;
     bottom: 2rem;
-    transform: translateX(2rem);
+    transform: translateX(5.5rem);
     color: var(--white);
     font-size: 4rem;
     /* background: #4b9c20; */
