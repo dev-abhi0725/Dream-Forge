@@ -338,9 +338,9 @@ body {
   margin-bottom: 10px;
 }
 .card-content p {
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
 }
 .card-content a {
   position: relative;
@@ -376,7 +376,7 @@ body {
   /* text-decoration: underline; */
 }
 #about .about-desc {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   padding: 10px 30px;
   text-align: center;
   margin: 0 30px;
@@ -400,16 +400,18 @@ body {
 }
 .about-info h3 {
   text-align: start;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .about-info h3 span {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  color:rgb(60, 60, 164);
+  font-weight: bolder;
 }
 .about-info .para {
   text-align: start;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 .about-info a{
   cursor: pointer;
@@ -552,7 +554,7 @@ body {
   }
 
   .content h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 80px;
   }
 
@@ -651,10 +653,12 @@ body {
     padding-bottom: 0;
     padding-top: 0;
     justify-content: center;
+    margin-bottom: 20px;
+    
   }
   .about-info h3 {
     text-align: start;
-    font-size: 1rem;
+    font-size: .8rem;
   }
   .about-info h3 span {
     font-size: .9rem;
@@ -676,7 +680,8 @@ body {
     font-size: 10px;
   }
   .about-info #social {
-    text-align: center;
+    text-align: center; display: flex;
+    gap:15px;
   }
   .about-info #social a {
     text-decoration: none;
