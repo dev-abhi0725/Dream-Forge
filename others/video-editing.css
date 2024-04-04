@@ -230,10 +230,11 @@ body {
 
 
 #tranding .tranding-slider {
-  height: 55rem;
+  height: 90rem;
   padding: 0 0 3rem 0;
   position: relative;
-  /* background: #f40a0a; */
+  /* background: #f40a0a; */ 
+  padding:5rem;
 }
 
 

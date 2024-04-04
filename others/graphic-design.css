@@ -230,10 +230,11 @@ body {
 
 
 #tranding .tranding-slider {
-  height: 55rem;
+  height: 90rem;
   padding: 0 0 3rem 0;
   position: relative;
   /* background: #f40a0a; */
+  padding:6rem;
 }
 
 
@@ -440,12 +441,13 @@ body {
   }
   .tranding-slide-content .project-name {
     position: absolute;
-    left: 4.7rem;
+    left: 4rem;
     bottom: 2rem;
     transform: translateX(2rem);
     color: var(--white);
     font-size: 4rem;
     /* background: #4b9c20; */
+
   }
   
   .tranding-slide-content .tranding-slide-content-bottom {
