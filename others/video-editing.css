@@ -233,7 +233,7 @@ body {
   height: 90rem;
   padding: 0 0 3rem 0;
   position: relative;
-  /* background: #f40a0a; */ 
+  /* background: #f40a0a; */
   padding:5rem;
 }
 
@@ -268,11 +268,13 @@ body {
 
 .tranding-slide-content .project-name {
   position: absolute;
-  left: 20rem;
+  /* left: 20rem; */
+  left: 50%;
   bottom: -80px;
-  transform: translateX(1%);
+  /* transform: translateX(1%); */
+  transform: translateX(-50%);
   color: var(--white);
-  font-size: 5rem;
+  font-size: 4.5rem;
   align-items: center;
   /* background:  #4b9c20; */
 }
@@ -441,9 +443,9 @@ body {
   }
   .tranding-slide-content .project-name {
     position: absolute;
-    left: 7rem;
+    left: 50%;/*4.7*/
     bottom: 2rem;
-    transform: translateX(5.5rem);
+    transform: translateX(-50%);/*2*/
     color: var(--white);
     font-size: 4rem;
     /* background: #4b9c20; */
@@ -455,8 +457,14 @@ body {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     /* color: var(--white); */
     /* background: #2909a9; */
   }
+}
+.para{
+
+
+font: size 3rem;
+
 }
